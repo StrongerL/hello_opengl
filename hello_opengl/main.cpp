@@ -64,5 +64,6 @@ int main() {
 	// ´òÓ¡×ø±ê
 	Draw::print_coordinate(solid);
 	// »æÖÆ
-	Draw::draw(solid);
+	Draw d;
+	d.draw(solid);
 }

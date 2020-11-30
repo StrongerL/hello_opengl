@@ -27,12 +27,6 @@
     <ClCompile Include="Sweep.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="Draw.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="tmp.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="EulerOperation.h">
@@ -50,7 +44,7 @@
     <ClInclude Include="Shader.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="stb_image.h">
+    <ClInclude Include="Camera.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>
@@ -66,10 +60,5 @@
     <Text Include="in.txt">
       <Filter>资源文件</Filter>
     </Text>
-  </ItemGroup>
-  <ItemGroup>
-    <Image Include="container.jpg">
-      <Filter>资源文件</Filter>
-    </Image>
   </ItemGroup>
 </Project>

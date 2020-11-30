@@ -143,18 +143,16 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="..\opengl\src\glad.c" />
-    <ClCompile Include="Draw.cpp" />
     <ClCompile Include="EulerOperation.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="Sweep.cpp" />
-    <ClCompile Include="tmp.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Camera.h" />
     <ClInclude Include="Draw.h" />
     <ClInclude Include="EulerOperation.h" />
     <ClInclude Include="HalfEdgeDataStructure.h" />
     <ClInclude Include="Shader.h" />
-    <ClInclude Include="stb_image.h" />
     <ClInclude Include="Sweep.h" />
   </ItemGroup>
   <ItemGroup>
@@ -163,9 +161,6 @@
   <ItemGroup>
     <None Include="shader.fs" />
     <None Include="shader.vs" />
-  </ItemGroup>
-  <ItemGroup>
-    <Image Include="container.jpg" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
